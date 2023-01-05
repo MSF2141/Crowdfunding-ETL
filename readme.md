@@ -49,6 +49,9 @@ Specifically, you’ll write the code to read each worksheet of the crowdfunding
 code [Extract-Transform_final_code](https://github.com/MSF2141/Crowdfunding-ETL/blob/9dd4fdb27ddd4697dcabb9383d59502ab6c1ae92/Extract-Transform_final_code.ipynb)
 import backers_info.csv as df, clean, export as backers.csv [backers](https://github.com/MSF2141/Crowdfunding-ETL/blob/7ff026afa8168ca202a823e14a1dee2d2cfc90f2/backers.csv).
 
+ERD logical diagram of five (5) source tables: 
+![crowdfunding_db_relationships](https://github.com/MSF2141/Crowdfunding-ETL/blob/0b0b1743d394b8b3618af14ac533100c28172b78/crowdfunding_db_relationships.png).
+
 
 ## Analysis
 In order to analyze the HR data, an Employee Database was created based on the entity relationship diagram, shown below. The Employee database was created from the following six (6) source tables: [departments](https://github.com/MSF2141/Pewlett-Hackard-Analysis./blob/6fd7a0dbeadaab27cd0da36f2696bae390c65024/Data/departments.csv), [dept_emp](https://github.com/MSF2141/Pewlett-Hackard-Analysis./blob/fd31e8af4ec01033a5251bdd40f4213a55006d05/Data/dept_emp.csv), [dept_manager](https://github.com/MSF2141/Pewlett-Hackard-Analysis./blob/715eb31e77e2a2404af35849f5fa4fd0e7fd6769/Data/dept_manager.csv), [employees](https://github.com/MSF2141/Pewlett-Hackard-Analysis./blob/0d0f29f9b7206340b23d879e3dce452120255bb4/Data/employees.csv), [salaries](https://github.com/MSF2141/Pewlett-Hackard-Analysis./blob/bbf490d37780e5fa46727235e5fc4a86f67dd21d/Data/salaries.csv), [titles](https://github.com/MSF2141/Pewlett-Hackard-Analysis./blob/8055755fae4ef01166962f3c0fa0efe4d42d7ede/Data/titles.csv). The code for creation of the Employee Database can be found here:
