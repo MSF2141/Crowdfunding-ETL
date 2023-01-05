@@ -43,6 +43,9 @@ Specifically, you’ll write the code to read each worksheet of the crowdfunding
 •	A contacts_df DataFrame
 
 
+[campaign](https://github.com/MSF2141/Crowdfunding-ETL/blob/d4faa810a0f53cd258f4f96daeee256de986c9b2/campaign.csv), 
+
+
 code [Extract-Transform_final_code](https://github.com/MSF2141/Crowdfunding-ETL/blob/9dd4fdb27ddd4697dcabb9383d59502ab6c1ae92/Extract-Transform_final_code.ipynb)
 import backers_info.csv as df, clean, export as backers.csv 
 
