@@ -1,11 +1,11 @@
-# Extract, Transform, Load (ETL) Process for a Crowdfunding Platform
+# ETL Process for a Crowdfunding Platform
 
 ## Overview of the Project
 
 Independent Funding is a crowdfunding platform for funding independent projects or ventures. The platform has been growing to a point where a database is needed to 
 store all their accessible data. This way, the analytics team will be able to perform analysis and create reports for company stakeholders and donors.
 
-In this project, the extract, transform, and load (ETL) process is applied to collect and clean data from two worksheets of one large Excel file and store them in a database prior to performing analysis. Python and Pandas in Jupyter notebook is used to do the extract and transform phases. pgAdmin 4 is then used to create a PostgreSQL database in the load phase. The design of database and its table schema is based on an entity relationship diagram (ERD) created with QuickDBD. Data analysis are performed using SQL queries.
+In this project, the **extract, transform, and load (ETL)** process is applied to collect and clean data from two worksheets of one large Excel file and store them in a database prior to performing analysis. Python and Pandas in Jupyter notebook is used to do the extract and transform phases. pgAdmin 4 is then used to create a PostgreSQL database in the load phase. The design of database and its table schema is based on an entity relationship diagram (ERD) created with QuickDBD. Data analysis are performed using SQL queries.
 
 
 
