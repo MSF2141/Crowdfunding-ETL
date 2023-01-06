@@ -52,6 +52,8 @@ import backers_info.csv as df, clean, export as backers.csv [backers](https://gi
 ERD logical diagram of five (5) source tables: 
 ![crowdfunding_db_relationships](https://github.com/MSF2141/Crowdfunding-ETL/blob/0b0b1743d394b8b3618af14ac533100c28172b78/crowdfunding_db_relationships.png).
 
+code to creata database:
+[crowdfunding_db_schema](https://github.com/MSF2141/Crowdfunding-ETL/blob/45084da51926b7ad06b4ad1a559b55eda621e04d/crowdfunding_db_schema.sql).
 
 The SQL queries, saved as crowdfunding_SQL_Analysis.sql
 
