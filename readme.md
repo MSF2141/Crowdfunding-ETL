@@ -42,7 +42,7 @@ Specifically, you’ll write the code to read each worksheet of the crowdfunding
 •	A contacts_df DataFrame
 
 "backer_id", "cf_id", "name", and "email"
-
+![backers_db](https://github.com/MSF2141/Crowdfunding-ETL/blob/4dca60b30f787b7d5213c6d99bbc3a89ee67ab80/backers_db.png)
 
 4 initial csv files:
 [campaign](https://github.com/MSF2141/Crowdfunding-ETL/blob/d4faa810a0f53cd258f4f96daeee256de986c9b2/campaign.csv), [category](https://github.com/MSF2141/Crowdfunding-ETL/blob/c1e0a19e9e59b52f4f0eb64d0a63d0c87187a224/category.csv), [subcategory](https://github.com/MSF2141/Crowdfunding-ETL/blob/6f78874d3079963627df4daac5e9e04a07d8200b/subcategory.csv), [contacts](https://github.com/MSF2141/Crowdfunding-ETL/blob/c723c283a8d544a3d89d40d9cdf36ff552e2dca9/contacts.csv).
