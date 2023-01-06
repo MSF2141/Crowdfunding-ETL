@@ -24,6 +24,19 @@ Following four (4) source csv files [campaign](https://github.com/MSF2141/Crowdf
 Crowdfunding database was created using the following code [crowdfunding_db_schema](https://github.com/MSF2141/Crowdfunding-ETL/blob/45084da51926b7ad06b4ad1a559b55eda621e04d/crowdfunding_db_schema.sql) and based on the ERD logical diagram of five (5) source tables: <br /> 
 ![crowdfunding_db_relationships](https://github.com/MSF2141/Crowdfunding-ETL/blob/0b0b1743d394b8b3618af14ac533100c28172b78/crowdfunding_db_relationships.png) 
 
+The SQL queries were done using the following code [crowdfunding_SQL_Analysis](https://github.com/MSF2141/Crowdfunding-ETL/blob/85ec0a7c9cd5344aa2aae7fe5b1639ca6f8a4cea/crowdfunding_SQL_Analysis.sql) to find out an email to each contact of every live campaign to inform them of how much of the goal remains ([email_contacts_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/9d8e1673828b738e9f84f4adaeb6accf4b5faa84/email_contacts_remaining_goal_amount.csv)). <br /> 
+![email_contacts_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/c5f9c71aa80f2e3ecf6a0ffdf287532d74f862c4/email_contacts_remaining_goal_amount.png).
+
+and backers [email_backers_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/c213964bd778c9695662dc8d6343899b39abac8b/email_backers_remaining_goal_amount.csv).  
+
+
+
+
+ho wants to send an email to each contact of every live campaign to inform them of how much of the goal remains.
+
+
+
+
 
 
 ## Analysis
@@ -44,15 +57,6 @@ Clean data into four dataframes:
 
 
 
-
-
-The SQL queries,[crowdfunding_SQL_Analysis](https://github.com/MSF2141/Crowdfunding-ETL/blob/85ec0a7c9cd5344aa2aae7fe5b1639ca6f8a4cea/crowdfunding_SQL_Analysis.sql)
-
-[email_contacts_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/9d8e1673828b738e9f84f4adaeb6accf4b5faa84/email_contacts_remaining_goal_amount.csv)
-![email_contacts_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/c5f9c71aa80f2e3ecf6a0ffdf287532d74f862c4/email_contacts_remaining_goal_amount.png).
-
-
-[email_backers_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/c213964bd778c9695662dc8d6343899b39abac8b/email_backers_remaining_goal_amount.csv)
 
 
 
