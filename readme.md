@@ -19,8 +19,7 @@ Deliverable 4: SQL Analysis <br />
 - pgAdmin 4 and PostgreSQL 
 
 ## Analysis
-1. and 2. Following four (4) source csv files 
-[campaign](https://github.com/MSF2141/Crowdfunding-ETL/blob/d4faa810a0f53cd258f4f96daeee256de986c9b2/campaign.csv), [category](https://github.com/MSF2141/Crowdfunding-ETL/blob/c1e0a19e9e59b52f4f0eb64d0a63d0c87187a224/category.csv), [subcategory](https://github.com/MSF2141/Crowdfunding-ETL/blob/6f78874d3079963627df4daac5e9e04a07d8200b/subcategory.csv), [contacts](https://github.com/MSF2141/Crowdfunding-ETL/blob/c723c283a8d544a3d89d40d9cdf36ff552e2dca9/contacts.csv) are extracted and transformed using the [ETL%20code](https://github.com/MSF2141/Crowdfunding-ETL/blob/42b078a6c708dc813812fb5e2fdd855a141dab41/ETL%20code.ipynb).
+Following four (4) source csv files [campaign](https://github.com/MSF2141/Crowdfunding-ETL/blob/d4faa810a0f53cd258f4f96daeee256de986c9b2/campaign.csv), [category](https://github.com/MSF2141/Crowdfunding-ETL/blob/c1e0a19e9e59b52f4f0eb64d0a63d0c87187a224/category.csv), [subcategory](https://github.com/MSF2141/Crowdfunding-ETL/blob/6f78874d3079963627df4daac5e9e04a07d8200b/subcategory.csv), [contacts](https://github.com/MSF2141/Crowdfunding-ETL/blob/c723c283a8d544a3d89d40d9cdf36ff552e2dca9/contacts.csv) were extracted and transformed using the [ETL%20code](https://github.com/MSF2141/Crowdfunding-ETL/blob/42b078a6c708dc813812fb5e2fdd855a141dab41/ETL%20code.ipynb).
 
 The fifth source table, [backers](https://github.com/MSF2141/Crowdfunding-ETL/blob/7ff026afa8168ca202a823e14a1dee2d2cfc90f2/backers.csv), is extracted and transformed from [backer_info](https://github.com/MSF2141/Crowdfunding-ETL/blob/8ec65b637d115879f9eb6e5a6d4c3fcc85ae239d/backer_info.csv) using the [Extract-Transform_final_code](https://github.com/MSF2141/Crowdfunding-ETL/blob/9dd4fdb27ddd4697dcabb9383d59502ab6c1ae92/Extract-Transform_final_code.ipynb).
 
