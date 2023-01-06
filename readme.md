@@ -59,7 +59,7 @@ ERD logical diagram of five (5) source tables:
 code to creata database:
 [crowdfunding_db_schema](https://github.com/MSF2141/Crowdfunding-ETL/blob/45084da51926b7ad06b4ad1a559b55eda621e04d/crowdfunding_db_schema.sql).
 
-The SQL queries, saved as crowdfunding_SQL_Analysis.sql
+The SQL queries,[crowdfunding_SQL_Analysis](https://github.com/MSF2141/Crowdfunding-ETL/blob/85ec0a7c9cd5344aa2aae7fe5b1639ca6f8a4cea/crowdfunding_SQL_Analysis.sql)
 
 [email_contacts_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/9d8e1673828b738e9f84f4adaeb6accf4b5faa84/email_contacts_remaining_goal_amount.csv)
 ![email_contacts_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/c5f9c71aa80f2e3ecf6a0ffdf287532d74f862c4/email_contacts_remaining_goal_amount.png).
