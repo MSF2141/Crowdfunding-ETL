@@ -7,30 +7,27 @@ store all their accessible data. This way, the analytics team will be able to pe
 
 In this project, the **extract, transform, and load (ETL)** process is applied to collect and clean data from two worksheets of one large Excel file and store them in a database prior to performing analysis. Python and Pandas in Jupyter notebook is used to do the extract and transform phases. pgAdmin 4 is then used to create a PostgreSQL database in the load phase. The design of database and its table schema is based on an entity relationship diagram (ERD) created with QuickDBD. Data analysis are performed using SQL queries.
 
-
-
-to explore, document, and perform your data transformation.
-
-after we’ve transformed the data into a consistent structure, we load it into the data target. The data target can be a relational database (like a PostgreSQL database), 
-
-Britta, a junior SQL developer, has been tasked with the following:
-•	Extracting and transforming the data from the large Excel file into four separate CSV files
-•	Creating a PostgreSQL database and tables by using an ERD
-•	Loading the CSV files into the database
-•	Performing SQL queries to generate reports for stakeholders
-
-
-
 ## Objectives
-Deliverable 1: Extract Data
-Deliverable 2: Transform and Clean Data
-Deliverable 3: Create an ERD and Table Schema, and Load Data
-Deliverable 4: SQL Analysis
+Deliverable 1: Extract Data <br />
+Deliverable 2: Transform and Clean Data <br />
+Deliverable 3: Create an ERD and Table Schema, and Load Data <br />
+Deliverable 4: SQL Analysis <br />
 
 ## Softwares
 - Python, Pandas, Jupyter Notebook 6.4.12
 - Quick DBD
-- PostgreSQL and pgAdmin 4
+- pgAdmin 4 and PostgreSQL 
+
+## Analysis
+1. Database is created from the following four (4) source csv files:
+[campaign](https://github.com/MSF2141/Crowdfunding-ETL/blob/d4faa810a0f53cd258f4f96daeee256de986c9b2/campaign.csv), [category](https://github.com/MSF2141/Crowdfunding-ETL/blob/c1e0a19e9e59b52f4f0eb64d0a63d0c87187a224/category.csv), [subcategory](https://github.com/MSF2141/Crowdfunding-ETL/blob/6f78874d3079963627df4daac5e9e04a07d8200b/subcategory.csv), [contacts](https://github.com/MSF2141/Crowdfunding-ETL/blob/c723c283a8d544a3d89d40d9cdf36ff552e2dca9/contacts.csv).
+
+The fifth source table, [backers](https://github.com/MSF2141/Crowdfunding-ETL/blob/7ff026afa8168ca202a823e14a1dee2d2cfc90f2/backers.csv), is extracted and transformed from [backer_info](https://github.com/MSF2141/Crowdfunding-ETL/blob/8ec65b637d115879f9eb6e5a6d4c3fcc85ae239d/backer_info.csv) using the [Extract-Transform_final_code](https://github.com/MSF2141/Crowdfunding-ETL/blob/9dd4fdb27ddd4697dcabb9383d59502ab6c1ae92/Extract-Transform_final_code.ipynb).
+
+Crowdfunding database is created based on the ERD logical diagram of five (5) source tables: 
+![crowdfunding_db_relationships](https://github.com/MSF2141/Crowdfunding-ETL/blob/0b0b1743d394b8b3618af14ac533100c28172b78/crowdfunding_db_relationships.png) using the following code [crowdfunding_db_schema](https://github.com/MSF2141/Crowdfunding-ETL/blob/45084da51926b7ad06b4ad1a559b55eda621e04d/crowdfunding_db_schema.sql).
+
+
 
 ## Analysis
 For the ETL process for Independent Funding, you and Britta need to create four new CSV files from a crowdfunding Excel file and upload those files into separate tables in a SQL database. To do so, you'll extract, transform, and load data. First you’ll extract the data from two worksheets of an Excel file and place that data in four DataFrames. Then, you'll transform each DataFrame by cleaning, restructuring, formatting, filtering, and splitting the data. Finally, you'll load the cleaned datasets as CSV files into a SQL database.
@@ -41,23 +38,16 @@ Specifically, you’ll write the code to read each worksheet of the crowdfunding
 •	A campaign_df DataFrame
 •	A contacts_df DataFrame
 extract from:
-[backer_info](https://github.com/MSF2141/Crowdfunding-ETL/blob/8ec65b637d115879f9eb6e5a6d4c3fcc85ae239d/backer_info.csv)
+
 Clean data into four dataframes:
 "backer_id", "cf_id", "name", and "email"
 ![backers_db](https://github.com/MSF2141/Crowdfunding-ETL/blob/4dca60b30f787b7d5213c6d99bbc3a89ee67ab80/backers_db.png)
 
-4 initial csv files:
-[campaign](https://github.com/MSF2141/Crowdfunding-ETL/blob/d4faa810a0f53cd258f4f96daeee256de986c9b2/campaign.csv), [category](https://github.com/MSF2141/Crowdfunding-ETL/blob/c1e0a19e9e59b52f4f0eb64d0a63d0c87187a224/category.csv), [subcategory](https://github.com/MSF2141/Crowdfunding-ETL/blob/6f78874d3079963627df4daac5e9e04a07d8200b/subcategory.csv), [contacts](https://github.com/MSF2141/Crowdfunding-ETL/blob/c723c283a8d544a3d89d40d9cdf36ff552e2dca9/contacts.csv).
 
 
-code [Extract-Transform_final_code](https://github.com/MSF2141/Crowdfunding-ETL/blob/9dd4fdb27ddd4697dcabb9383d59502ab6c1ae92/Extract-Transform_final_code.ipynb)
-import backers_info.csv as df, clean, export as backers.csv [backers](https://github.com/MSF2141/Crowdfunding-ETL/blob/7ff026afa8168ca202a823e14a1dee2d2cfc90f2/backers.csv).
 
-ERD logical diagram of five (5) source tables: 
-![crowdfunding_db_relationships](https://github.com/MSF2141/Crowdfunding-ETL/blob/0b0b1743d394b8b3618af14ac533100c28172b78/crowdfunding_db_relationships.png).
 
-code to creata database:
-[crowdfunding_db_schema](https://github.com/MSF2141/Crowdfunding-ETL/blob/45084da51926b7ad06b4ad1a559b55eda621e04d/crowdfunding_db_schema.sql).
+
 
 The SQL queries,[crowdfunding_SQL_Analysis](https://github.com/MSF2141/Crowdfunding-ETL/blob/85ec0a7c9cd5344aa2aae7fe5b1639ca6f8a4cea/crowdfunding_SQL_Analysis.sql)
 
