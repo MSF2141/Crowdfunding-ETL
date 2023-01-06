@@ -40,7 +40,9 @@ Specifically, you’ll write the code to read each worksheet of the crowdfunding
 •	A subcategory_df DataFrame
 •	A campaign_df DataFrame
 •	A contacts_df DataFrame
-
+extract from:
+[backer_info](https://github.com/MSF2141/Crowdfunding-ETL/blob/8ec65b637d115879f9eb6e5a6d4c3fcc85ae239d/backer_info.csv)
+Clean data into four dataframes:
 "backer_id", "cf_id", "name", and "email"
 ![backers_db](https://github.com/MSF2141/Crowdfunding-ETL/blob/4dca60b30f787b7d5213c6d99bbc3a89ee67ab80/backers_db.png)
 
