@@ -27,12 +27,14 @@ Crowdfunding database was created using the following code [crowdfunding_db_sche
 The SQL queries were done using the following code [crowdfunding_SQL_Analysis](https://github.com/MSF2141/Crowdfunding-ETL/blob/85ec0a7c9cd5344aa2aae7fe5b1639ca6f8a4cea/crowdfunding_SQL_Analysis.sql) to find out an email to each contact of every live campaign to inform them of how much of the goal remains ([email_contacts_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/9d8e1673828b738e9f84f4adaeb6accf4b5faa84/email_contacts_remaining_goal_amount.csv)). <br /> 
 ![email_contacts_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/c5f9c71aa80f2e3ecf6a0ffdf287532d74f862c4/email_contacts_remaining_goal_amount.png).
 
-and backers [email_backers_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/c213964bd778c9695662dc8d6343899b39abac8b/email_backers_remaining_goal_amount.csv).  
+In addition, the SQL query was done to find out an email to each backer to let them know how much of the goal remains for each live campaign that they have pledged.
+([email_backers_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/c213964bd778c9695662dc8d6343899b39abac8b/email_backers_remaining_goal_amount.csv)). <br /> 
+![email_backers_remaining_goal_amount](https://github.com/MSF2141/Crowdfunding-ETL/blob/e30d14dcd066ec55c812e580fd93aaf3cb7e4d58/email_backers_remaining_goal_amount.png)
+<br /> 
 
 
 
 
-ho wants to send an email to each contact of every live campaign to inform them of how much of the goal remains.
 
 
 
